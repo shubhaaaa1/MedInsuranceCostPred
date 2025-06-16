@@ -41,6 +41,7 @@ child_map = {'0': 0, '1': 1, '2': 2, '3+': 3}
 smoker_map = {'non smoker': 0, 'smoker': 1}
 region_map = {'Northeast': 0, 'Northwest': 1, 'Southeast': 2, 'Southwest': 3}
 
+st.markdown('---')
 # Prediction
 if st.button("Predict the Insurance Cost →"):
     features = [
