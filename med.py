@@ -8,7 +8,7 @@ st.markdown('''** Welcome our valued Client !!!
  This is the cost prediction system of the Medical Insurance which Tries to Predict cost from the below asked Features .
  Fill All the Features Properly. ** ''')
 
- st.markdown('---')
+st.markdown('---')
 
  def load_model():
     with open('linearmodel.pkl','rb') as f:
